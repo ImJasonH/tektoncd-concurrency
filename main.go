@@ -58,6 +58,7 @@ func newController(ctx context.Context, cmw configmap.Watcher) *controller.Impl 
 type Reconciler struct{}
 
 // ReconcileKind implements Interface.ReconcileKind.
+// TODO: move this to its own package, with tests.
 func (c *Reconciler) ReconcileKind(ctx context.Context, r *v1beta1.PipelineRun) kreconciler.Event {
 	logger := logging.FromContext(ctx)
 	logger.Infof("Reconciling %s/%s", r.Namespace, r.Name)

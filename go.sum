@@ -1087,6 +1087,8 @@ github.com/subosito/gotenv v1.2.0/go.mod h1:N0PQaV/YGNqwC0u51sEeR/aUtSLEXKX9iv69
 github.com/syndtr/gocapability v0.0.0-20170704070218-db04d3cc01c8/go.mod h1:hkRG7XYTFWNJGYcbNJQlaLq0fg1yr4J4t/NcTQtrfww=
 github.com/tdakkota/asciicheck v0.0.0-20200416190851-d7f85be797a2/go.mod h1:yHp0ai0Z9gUljN3o0xMhYJnH/IcvkdTBOX2fmJ93JEM=
 github.com/tdakkota/asciicheck v0.0.0-20200416200610-e657995f937b/go.mod h1:yHp0ai0Z9gUljN3o0xMhYJnH/IcvkdTBOX2fmJ93JEM=
+github.com/tektoncd/pipeline v0.20.1-0.20210127155341-d4a3aa2ec86e h1:qRL6E9gdWIXO0A08SYqJa/jZCeJt2yQf4yXwAqMgnvE=
+github.com/tektoncd/pipeline v0.20.1-0.20210127155341-d4a3aa2ec86e/go.mod h1:xF5WxMLvp/05oGZ+Fvqcbglmf4HVU9u1keXHaM+rR14=
 github.com/tektoncd/pipeline v0.20.1 h1:hNJa7B2xOPsg4S1a961kyDk6hnDaEAHUll9GKHCMdMg=
 github.com/tektoncd/pipeline v0.20.1/go.mod h1:xF5WxMLvp/05oGZ+Fvqcbglmf4HVU9u1keXHaM+rR14=
 github.com/tektoncd/plumbing v0.0.0-20200430135134-e53521e1d887/go.mod h1:cZPJIeTIoP7UPTxQyTQLs7VE1TiXJSNj0te+If4Q+jI=
