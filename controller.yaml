@@ -229,3 +229,16 @@ spec:
     app.kubernetes.io/component: tektoncd-concurrency-controller
     app.kubernetes.io/instance: default
     app.kubernetes.io/part-of: tektoncd-concurrency
+
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: config-concurrency
+  namespace: tektoncd-concurrency
+  labels:
+    app.kubernetes.io/instance: default
+    app.kubernetes.io/part-of: tekton-concurrency
+data:
+  concurrency-key: ""
+  concurrency-limit: "3"
